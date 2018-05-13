@@ -4,6 +4,17 @@
 
 ## Functions :
 
+### Drawing primitives
+
+[.draw_line(x1, y1, c1, x2, y2, c2, z = 0, mode = :default) ](ruby/_.md) void
+####Draws a line from one point to another—inconsistently.
+[.draw_quad(x1, y1, c1, x2, y2, c2, x3, y3, c3, x4, y4, c4, z = 0, mode = :default) ](ruby/_.md) void
+####Draws a quad (actually two triangles).
+[.draw_rect(x, y, width, height, c, z = 0, mode = :default) ](ruby/_.md) void
+####Draws a rectangle (actually a quad, or two triangles).
+[.draw_triangle(x1, y1, c1, x2, y2, c2, x3, y3, c3, z = 0, mode = :default) ](ruby/_.md) void
+####Draws a triangle.
+
 ### Manipulating the current drawing context
 
 [.clip_to(x, y, w, h) { ... }](/ruby/clip_to.md) ⇒ void
