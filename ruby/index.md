@@ -6,4 +6,4 @@
 
 ### Manipulating the current drawing context
 
-[.clip_to(x, y, w, h)]("/clip_to.md")
+[.clip_to(x, y, w, h)](/clip_to.md)
